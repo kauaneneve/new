@@ -1,0 +1,150 @@
+.color-default {
+    background-color: #FEEFCE;
+  }
+  
+  .logo-navbar {
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  .fonte-alterada {
+    font-family: winterbeauty;
+  }
+  
+  
+  /*carrossel*/
+ 
+  .wer {
+    width: 100%;
+    height: 80vh;
+    display:grid;
+    place-items:center;
+  }
+  .imagem{
+    width: 40%;
+    height: 100%;
+    object-fit:cover;
+    
+    -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+    
+    transform-origin:center;
+    transform:perspective(800px) rotateY(25deg);
+    transition:0.5s;
+  }
+  .container {
+    max-width:600px;
+    max-height:350px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    
+  }
+  .container:hover img {
+    opacity:0.3;
+  }
+  .container img:hover {
+    transform:perspective(800px)       rotateY(0deg);
+    opacity:1;
+  }
+  
+  /*dropdown*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+/*card*/
+
+.conatiner {
+	width: 100%;
+	height: 500px;
+}
+.wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.box {
+	margin: 10px;
+	width: 300px;
+	height: 490px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.box:hover {
+	margin-bottom: -10px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.box h1 {
+	color: #fff;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+/*imagem*/
+.um {
+	background: url('../7/img/bolo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.dois {
+	background: url('../7/img/cartafire.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.tres {
+	background: url('../7/img/Don\ Minion.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.quatro {
+	background: url('../7/img/pika.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
